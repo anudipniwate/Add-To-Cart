@@ -16,6 +16,7 @@ public class VerifyAddingProdductToCart extends BaseClass {
 
 		PSPO.EnterProductName().sendKeys(Constant.searchbar);
 		PSPO.ClickForSearch().click();
+		Thread.sleep(2000);
 		String iphoneCost = PSPO.GetTextOfPrice().getText();
 		double d1 = CommonUtilities.ProductPriceHandle(iphoneCost);
 		PSPO.ClickOnAddToCart().click();
@@ -23,6 +24,7 @@ public class VerifyAddingProdductToCart extends BaseClass {
 		
 		PSPO.EnterProductName1().sendKeys(Constant.searchbar1);
 		PSPO.ClickForSearch1().click();
+		Thread.sleep(2000);
 		String samsungCost = PSPO.GetTextOfPrice1().getText();
 		double d2 = CommonUtilities.ProductPriceHandle(samsungCost);
 		PSPO.ClickOnAddToCart1().click();
