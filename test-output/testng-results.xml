@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-12-20T17:01:20 IST" name="Default suite" finished-at="2022-12-20T17:01:28 IST" duration-ms="8076">
+  <suite started-at="2022-12-21T21:49:47 IST" name="Suite" finished-at="2022-12-21T21:50:13 IST" duration-ms="25882">
     <groups>
     </groups>
-    <test started-at="2022-12-20T17:01:20 IST" name="Default test" finished-at="2022-12-20T17:01:28 IST" duration-ms="8076">
+    <test started-at="2022-12-21T21:49:47 IST" name="Test" finished-at="2022-12-21T21:50:13 IST" duration-ms="25882">
       <class name="TestCases.VerifyAddingProdductToCart">
-        <test-method is-config="true" signature="LaunchURL()[pri:0, instance:TestCases.VerifyAddingProdductToCart@c33b74f]" started-at="2022-12-20T17:01:20 IST" name="LaunchURL" finished-at="2022-12-20T17:01:25 IST" duration-ms="4447" status="PASS">
+        <test-method is-config="true" signature="LaunchURL()[pri:0, instance:TestCases.VerifyAddingProdductToCart@c33b74f]" started-at="2022-12-21T21:49:47 IST" name="LaunchURL" finished-at="2022-12-21T21:50:05 IST" duration-ms="17165" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchURL -->
-        <test-method signature="VerifySumOfProducts()[pri:0, instance:TestCases.VerifyAddingProdductToCart@c33b74f]" started-at="2022-12-20T17:01:25 IST" name="VerifySumOfProducts" finished-at="2022-12-20T17:01:28 IST" duration-ms="3595" status="PASS">
+        <test-method signature="VerifySumOfProducts()[pri:0, instance:TestCases.VerifyAddingProdductToCart@c33b74f]" started-at="2022-12-21T21:50:05 IST" name="VerifySumOfProducts" finished-at="2022-12-21T21:50:13 IST" duration-ms="8663" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifySumOfProducts -->
       </class> <!-- TestCases.VerifyAddingProdductToCart -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
